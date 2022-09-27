@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import { v4 as uuid } from "uuid";
 
-import { DragDropContext, Droppable, DropResult } from "react-beautiful-dnd";
+import { DragDropContext, Droppable, DropResult } from "@hello-pangea/dnd";
 import Incomplete from "@components/beautiful/incomplete";
 import Complete from "@components/beautiful/complete";
 import { DroppableTypes } from "@lib/enums";

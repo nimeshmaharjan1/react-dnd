@@ -1,6 +1,6 @@
 import { Todo } from "@pages/beautiful";
 import React, { useEffect, useState } from "react";
-import { Draggable } from "react-beautiful-dnd";
+import { Draggable } from "@hello-pangea/dnd";
 
 const Complete: React.FC<{ todo: Todo; index: number }> = ({ todo, index }) => {
   const [isMounted, setIsMounted] = useState(false);
