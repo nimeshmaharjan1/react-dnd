@@ -9,13 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
+    "@types/react-beautiful-dnd": "^13.1.2",
     "@types/uuid": "^8.3.4",
     "daisyui": "^2.31.0",
+    "immutability-helper": "^3.1.1",
+    "lodash": "^4.17.21",
     "next": "12.3.1",
     "react": "18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "18.2.0",
+    "react-redux": "^8.0.4",
     "uuid": "^9.0.0"
   },
   "devDependencies": {

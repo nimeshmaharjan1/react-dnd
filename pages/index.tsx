@@ -59,7 +59,7 @@ const Home: NextPage = () => {
   const markTaskAsDone = (taskId: string) => {
     const draggedTask = taskList.find((task) => task._id === taskId) as Item;
     draggedTask.status = TaskStatus.COMPLETE;
-    console.log(draggedTask);
+    // console.log(draggedTask);
     setTaskList(taskList.filter((task: Item) => task._id !== taskId).concat(draggedTask));
   };
 

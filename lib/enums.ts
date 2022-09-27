@@ -2,6 +2,11 @@ export enum ItemTypes {
   CARD = "card",
 }
 
+export enum DroppableTypes {
+  INCOMPLETE_TASKS = "incomplete",
+  COMPLETE_TASKS = "complete",
+}
+
 export enum TaskStatus {
   INCOMPLETE = "incomplete",
   COMPLETE = "complete",

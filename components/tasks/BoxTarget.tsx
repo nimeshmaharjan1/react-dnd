@@ -17,7 +17,12 @@ const BoxTarget: React.FC<Props> = ({ children }) => {
     }),
   });
   return (
-    <div ref={drop} className="min-h-[500px] bg-blue-200  text-black rounded p-4  flex flex-col gap-2">
+    <div
+      ref={drop}
+      className={`min-h-[500px] ${
+        isOver ? "bg-blue-200" : "bg-transparent"
+      }  text-black rounded p-4  flex flex-col gap-2 justify-center items-center`}
+    >
       {children}
     </div>
   );
